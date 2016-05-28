@@ -2,7 +2,6 @@ FROM armhf/debian
 MAINTAINER Brice Dereims "bdereims@gmail.com"
 
 RUN apt-get update
-RUN apt-get -y install apt-utils 
 
 RUN export DEBIAN_FRONTEND=noninteractive && apt-get -y install mysql-client mysql-server phpmyadmin
 
